@@ -55,22 +55,22 @@ function App() {
                     <div className="timers">
                         <div className="timer">
                             <div className="type">Dias</div>
-                            <div className="content">{countdown.days}</div>
+                            <div className="content">{countdown.days < 10? `0${countdown.days}`: countdown.days}</div>
                         </div>
                         <div className="separator">:</div>
                         <div className="timer">
                             <div className="type">Horas</div>
-                            <div className="content">{countdown.hours}</div>
+                            <div className="content">{countdown.hours < 10? `0${countdown.hours}`: countdown.hours}</div>
                         </div>
                         <div className="separator">:</div>
                         <div className="timer">
                             <div className="type">Minutos</div>
-                            <div className="content">{countdown.minutes}</div>
+                            <div className="content">{countdown.minutes < 10? `0${countdown.minutes}`: countdown.minutes}</div>
                         </div>
                         <div className="separator">:</div>
                         <div className="timer">
                             <div className="type">Segundos</div>
-                            <div className="content">{countdown.seconds}</div>
+                            <div className="content">{countdown.seconds < 10? `0${countdown.seconds}`: countdown.seconds}</div>
                         </div>
                     </div>
                     <div className="subscribe">Inscreva-se para saber mais sobre o lançamento</div>
