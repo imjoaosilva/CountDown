@@ -56,6 +56,10 @@ body,.app {
     font-size: 72px;
 }
 
+.content {
+    width: 80px;
+}
+
 .subscribe {
     color: var(--text-color);
     font-size: 14px;
@@ -106,6 +110,10 @@ body,.app {
 
     .image img {
         width: 400px;
+    }
+
+    .content {
+        width: auto;
     }
 }
 
