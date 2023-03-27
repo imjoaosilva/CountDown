@@ -16,7 +16,7 @@ function App() {
     useEffect(() => {
         const interval = setInterval(() => {
             const now = new Date().getTime();
-            const difference = new Date("March 28, 2023 23:52:00").getTime() - now;
+            const difference = new Date("March 27, 2023 17:52:00").getTime() - now;
             let seconds = Math.floor(difference / 1000 % 60)
             const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             const days = Math.floor(difference / (1000 * 60 * 60 * 24));
@@ -51,7 +51,7 @@ function App() {
             <img src={TopImage} alt="" style={{width:'100%'}}/>
             <main className="container">
                 <div className="timercontent">
-                    <h1>O Pedro vai ser pai em...</h1>
+                    <h1>O Pedro Gonçalves vai ser pai em...</h1>
                     <div className="timers">
                         <div className="timer">
                             <div className="type">Dias</div>
