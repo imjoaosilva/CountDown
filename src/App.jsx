@@ -51,7 +51,7 @@ function App() {
             <img src={TopImage} alt="" style={{width:'100%'}}/>
             <main className="container">
                 <div className="timercontent">
-                    <h1>Launch in...</h1>
+                    <h1>Preparing to launch in...</h1>
                     <div className="timers">
                         <div className="timer">
                             <div className="type">Dias</div>
