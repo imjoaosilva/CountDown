@@ -16,7 +16,7 @@ function App() {
     useEffect(() => {
         const interval = setInterval(() => {
             const now = new Date().getTime();
-            const difference = new Date("June 27, 2023 17:52:00").getTime() - now;
+            const difference = new Date("November 27, 2023 17:52:00").getTime() - now;
             let seconds = Math.floor(difference / 1000 % 60)
             const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             const days = Math.floor(difference / (1000 * 60 * 60 * 24));
